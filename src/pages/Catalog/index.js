@@ -3,6 +3,8 @@ import { View } from "react-native";
 import FeatherIcon from 'react-native-vector-icons/Feather';
 import {formatCurrency} from '../../utils/function.utils';
 
+import FloatCart from '../../components/FloatCart';
+
 import {
   Container,
   ProductContainer,
@@ -55,6 +57,7 @@ const Catalog = () => {
           renderItem={({item}) => (<RenderProducts product={item} />)}
         />
       </ProductContainer>
+      <FloatCart />
     </Container>
   );
 };
