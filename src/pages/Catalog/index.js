@@ -1,8 +1,8 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {Container} from './styles';
 
 const Catalog = () => (
-  <View><Text>Hello Catalog</Text></View>
+  <Container />
 )
 
 export default Catalog;
